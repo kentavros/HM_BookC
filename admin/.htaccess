@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+AuthType Basic
+AuthName "Only for administrator."
+AuthUserFile C:/OpenServer/domains/localhost/HM_BookC/AuthFile/.htpasswd
+require valid-user
